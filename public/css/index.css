@@ -1,0 +1,12 @@
+* {
+  background-color: lightgrey;
+  color: red;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  height: 400px;
+}

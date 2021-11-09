@@ -17,6 +17,10 @@ app.get("/work", (req, res) => {
   res.sendFile(__dirname + "/public/views/work.html");
 });
 
+app.get("/galery", (req, res) => {
+  res.sendFile(__dirname + "/public/views/galery.html");
+});
+
 app.listen(3000, () => {
   console.log("Server is runing!");
 });
